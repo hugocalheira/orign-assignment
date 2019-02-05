@@ -1,0 +1,32 @@
+.Spinner {
+    width: 34px;
+    height: 34px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzQiIGhlaWdodD0iMzQiIHZpZXdCb3g9IjAgMCAzNCAzNCI+ICAgIDxkZWZzPiAgICAgICAgPHBhdGggaWQ9ImEiIGQ9Ik0zMiAxNmMwLTguODM3LTcuMTYzLTE2LTE2LTE2TTAgMTZjMCA4LjgzNyA3LjE2MyAxNiAxNiAxNiIvPiAgICA8L2RlZnM+ICAgIDx1c2UgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2U9IiMxRTFFMUUiIHN0cm9rZS13aWR0aD0iMiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMSAxKSIgeGxpbms6aHJlZj0iI2EiLz48L3N2Zz4=);
+    -webkit-animation: spin 1.2s linear infinite;
+    -moz-animation: spin 1.2s linear infinite;
+    animation: spin 1.2s linear infinite;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    margin-top: 34px;
+    opacity: .3;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

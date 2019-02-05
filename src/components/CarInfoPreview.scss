@@ -1,0 +1,18 @@
+.CarInfoPreview {
+    margin: 1em 0;
+    &__Line {
+        border-top: 1px solid #cccccc;
+        font-size: .8em;
+        text-align: left;
+        padding: .5em 0;
+
+
+        @media (max-width: 600px) {
+            font-size: 1em;
+        }
+
+    }
+    &__Line:first-child {
+        border-top: none;
+    }
+}
